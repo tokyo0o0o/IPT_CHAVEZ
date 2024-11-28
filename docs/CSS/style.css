@@ -1,0 +1,182 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1C0823;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background: rgba(28, 8, 35, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.logo span {
+    color: #F72585;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #F72585;
+}
+
+/* Main Content */
+.main-content {
+    padding: 6rem 3rem;
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    color: white;
+}
+
+/* About Card */
+.about-card {
+    background: #331151;
+    border-radius: 12px;
+    padding: 2rem;
+    flex: 1;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: -75px;
+    margin-left: -200px;
+}
+
+.about-card h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F72585;
+    margin-bottom: 1.5rem;
+}
+
+.about-card p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    width: 700px;
+}
+
+/* Skills Section */
+.skills-section {
+    margin-top: -75px;
+    margin-left: 10px;
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    color: #F72585;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.skill-card {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: background 0.3s ease;
+    width: 700px;   
+}
+
+.skill-card:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.skill-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #F72585;
+}
+
+.progress-bar {
+    background: #333;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.progress {
+    height: 10px;
+    background: #F72585;
+    transition: width 0.5s;
+}
+
+/* Footer */
+footer {
+    background-color: #331151;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -4.9rem;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-logo span {
+    color: #F72585;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-socials a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: #F72585;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #B8A1C7;
+}
