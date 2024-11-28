@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1C0823;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background: #1C0823;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.logo span {
+    color: #F72585;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-cta {
+    border: 2px solid #FFFFFF;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-cta:hover {
+    background: #F72585;
+    color: white;
+    border: none;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(135deg, #331151 0%, #2B0247 100%);
+    color: white;
+    position: relative;
+}
+
+.hero-text {
+    max-width: 850px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-left: 200px;
+}
+
+.hero-text p {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 200px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.cta-button {
+    background-color: #F72585;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-left: 200px;
+}
+
+.cta-button:hover {
+    background-color: #FF3B91;
+}
+
+.hero-image {
+    position: relative;
+    width: 450px;
+    margin-right: 200px;
+}
+
+.hero-image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 30px rgba(247, 37, 133, 0.3);
+    margin-right: 200px;
+}
+
+/* Enhanced Decorative Elements */
+.decorative-circle {
+    position: absolute;
+    top: -40px;
+    left: -60px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, rgba(247, 37, 133, 0.7), rgba(255, 59, 145, 0.3));
+    z-index: 0;
+}
+
+.decorative-lines {
+    position: absolute;
+    bottom: -60px;
+    right: -70px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(255, 91, 157, 0.8) 10%, transparent 60%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+    z-index: -1;
+}
+
+.hexagon {
+    position: absolute;
+    bottom: -30px;
+    right: -180px;
+    width: 150px;
+    height: 150px;
+    background: rgba(247, 37, 133, 0.5);
+    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+    z-index: -2;
+}
+
+/* Section Layout (side-by-side boxes) */
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: transparent;
+}
+
+.info-box {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #F72585;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-box:hover {
+    background-color: rgba(247, 37, 133, 0.2);
+}
+
+.info-box h2 {
+    color: #F72585;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-box p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background-color: #331151;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -0.01rem;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-logo span {
+    color: #F72585;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-socials a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: #F72585;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #B8A1C7;
+}
